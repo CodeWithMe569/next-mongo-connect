@@ -5,9 +5,9 @@ This package provides a reusable MongoDB connection utility using Mongoose for N
 ## Installation
 
 You can install the package via npm :-
-`
+```bash
 npm install next-mongo-connect
-`
+```
 
 ## Usage
 
@@ -16,7 +16,7 @@ npm install next-mongo-connect
 
 Example :-
 
-`
+```javascript
 import dbConnect from 'next-mongo-connect';
 
 async function handler(req, res) {
@@ -27,7 +27,7 @@ async function handler(req, res) {
 };
 
 export default handler;
-`
+```
 
 ## Environment Setup
 
