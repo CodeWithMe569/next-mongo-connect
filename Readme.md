@@ -32,9 +32,9 @@ export default handler;
 ## Environment Setup
 
 Store your MongoDB connection string in the .env.local file :-
-`
+```javascript
 MONGO_URI = mongodb connection string
-`
+```
 
 ## Contributing
 
