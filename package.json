@@ -14,6 +14,7 @@
   "author": "Himanshu Tiwari",
   "license": "MIT",
   "dependencies": {
+    "mongoose": "^8.7.2",
     "typescript": "^5.6.3"
   }
 }
