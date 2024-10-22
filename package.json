@@ -1,0 +1,16 @@
+{
+  "name": "next-mongo-connect",
+  "version": "1.0.0",
+  "description": "A reusable MongoDB connection utility for Next.js projects, using Mongoose ensuring efficient and consistent database connection.",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "MongoDB",
+    "Next.js",
+    "Mongoose"
+  ],
+  "author": "Himanshu Tiwari",
+  "license": "MIT"
+}
