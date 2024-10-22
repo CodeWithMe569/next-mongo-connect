@@ -12,5 +12,8 @@
     "Mongoose"
   ],
   "author": "Himanshu Tiwari",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "typescript": "^5.6.3"
+  }
 }
