@@ -8,6 +8,10 @@ type ConnectionObject = {
 const connection: ConnectionObject = {};
 
 async function dbConnect(mongo_uri: string): Promise<void> {
+    if (mongo_uri === '') {
+        throw new Error('Mongo URI string cannot be empty.');
+    }
+
     if (connection.isConnected) {
         console.log("Already connected");
         return;
@@ -20,7 +24,7 @@ async function dbConnect(mongo_uri: string): Promise<void> {
 
         console.log("DB Connected Succesfully");
     } catch (error) {
-        
+
         console.log("DB connection failed", error);
 
         process.exit(1);
